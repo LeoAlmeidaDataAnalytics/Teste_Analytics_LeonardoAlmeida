@@ -49,7 +49,7 @@ dataset = pd.DataFrame(dados)
 
 # Visualizar o dataset
 print(dataset)
-print(type(preco))
+#print(type(preco))
 
 # criando o dataset como csv e o separador como ;
-#dataset.to_csv('data_clean.csv', index=False, sep=';')
+dataset.to_csv('data_clean.csv', index=False, sep=';')
